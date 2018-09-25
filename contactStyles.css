@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* li button {
+  font-size: 8px;
+  margin-left: 20px;
+  color: #666;
+} */
+
+.button {
+    background-color: #0099cc;
+    border: none;
+    color: white;
+    padding: 20px;
+    /* text-align: center;
+    text-decoration: none;
+    display: inline-block; */
+    font-size: 22px;
+    margin: 4px 4px;
+    cursor: pointer;
+}
+.button4 {border-radius: 12px;}
+
+* {
+  font-family: Times New Roman
+}
+
+div {
+  text-align: left;
+  font-size: large;
+}
+
+#sideBar {
+  text-align: left;
+  margin: 0px 700px 0px 0px
+}
+#districtLists {
+  text-align:left;
+}
+
+a {
+  color: blue
+}
+
+/* #home {
+  position: absolute;
+  left: 70px;
+  top: 45px;
+  font-size: 25px;
+} */
+
+#topicHeading {
+  font-weight: bold;
+  font-size: 25px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+#userSearch {
+  height: auto;
+  font-size:16pt;
+}
+
+body {
+    background-color: #fffff0
+}
+
+.list { text-align: center; list-style-position: inside;}
+
+#inputField {
+  /* border: 8px; */
+  /* border-style: groove; */
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: -15%;
+}
+
+#PointsLogo {
+  max-width:25%;
+  max-height:25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+#myListId {
+    text-align:center;
+    background-color: white;
+    padding: 50px;
+    font-size:16pt;
+    border: 2px solid grey;
+    border-radius: 12px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#minus {
+  text-align: right;
+}
+
+
+ul {
+    list-style-position: inside;
+}
+
+.center {
+width:300px;
+margin:0 auto;
+text-align:center;
+}
+
+.centerList {
+width:600px;
+margin:0 auto;
+text-align:left;
+/* list-style-position: outside; */
+/* white-space:nowrap; */
+padding-bottom: 100px
+}
+
+/*New Shuck Styling */
+/* .redColor {
+  color: red;
+} */
+
+
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Home {background-color: red;}
+#News {background-color: green;}
+#Contact {background-color: blue;}
+#About {background-color: orange;}

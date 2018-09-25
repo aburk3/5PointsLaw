@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="kiraStyles.css">
+	<meta charset="utf-8">
+	<button class="tablink" onclick="document.location.href = '../Allen/allenTab.html'">Allen Arnold</button>
+	<button class="tablink" onclick="document.location.href = 'kiraTab.html'">Kira Fonteneau</button>
+	<button class="tablink" onclick="document.location.href = '../contacts.html'">Contacts</button>
+	<br>
+	<br>
+	<title>5 Points Law Group</title>
+</head>
+
+<body>
+	<a href="../home.html" target="_self"><h2>Home</h2></a>
+	<p>
+		<a href="../home.html" target="_self"><img src="5Points.png" alt="5 Points Logo" id="PointsLogo" /></a>
+	</p>
+	<h1 style='font-style: italic'>5 Points Law Group - Kira's Litigation Reference</h1>
+
+
+	<div id="sideBar">
+		<h2><u>Alabama Districts</u></h2>
+		<ul id="districtLists" style="list-style-type:circle" class="box">
+			<li><a href="https://ecf.alnd.uscourts.gov/cgi-bin/ShowIndex.pl" target="_blank">Northern District</a></li>
+			<li><a href="https://ecf.almd.uscourts.gov/cgi-bin/login.pl" target="_blank">Middle District</a></li>
+			<li><a href="https://ecf.alsd.uscourts.gov/cgi-bin/ShowIndex.pl" target="_blank">Southern District</a></li>
+		</ul>
+		<h4 class="link_button"><a href="kiraFiling.html">e-Filing Process</a></h4>
+		<h4 class="link_button"><a href="kiraServicePacket.html">Service Packet</a></h4>
+		<h4 class="link_button"><a href="../Allen/complaintTemplate.html">Complaints</a></h4>
+
+	</div>
+	<br>
+	<br>
+	<br>
+	<div id="inputField">
+		<label for="item" style='font-size:16pt'>Enter what you are looking for</label>
+		<input type="text" value="" id="userSearch" placeholder="type here!">
+		<button id="buttonWasClicked" onclick="checkForItem()" class="button button4">Find</button>
+	</div>
+	<br>
+	<h2 id="topicHeading"></h2>
+	<div id="friends">
+
+	</div>
+  <script type="text/javascript" src="../index.js"></script>
+</body>
+
+</html>
